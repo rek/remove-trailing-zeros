@@ -3,7 +3,7 @@
 [![NPM version][npm-image]][npm-url]
 [![NPM downloads][downloads-image]][downloads-url]
 
-Compare two strings in lower case
+Remove extra zeros from the end of a string or number
 
 ## Installation
 
@@ -18,6 +18,17 @@ import removeTrailingZeros from 'remove-trailing-zeros'
 
 console.log('Are the same:', removeTrailingZeros('1,230.4000'')) // -> 1,230.4
 ```
+## Examples
+
+1 -> 1
+10 -> 10
+100. -> 100
+100.0 -> 100
+100.1 -> 100.1
+100.10 -> 100.1
+100.01 -> 100.01
+100.010 -> 100.01
+'1.2304000' -> 1.2304
 
 ## License
 
