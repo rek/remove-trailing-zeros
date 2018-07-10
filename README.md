@@ -38,3 +38,8 @@ ISC
 [npm-url]: https://npmjs.org/package/remove-trailing-zeros
 [downloads-image]: https://img.shields.io/npm/dm/remove-trailing-zeros.svg?style=flat
 [downloads-url]: https://npmjs.org/package/remove-trailing-zeros
+
+## Changelog
+
+1.0.2 - Removed let and used var instead, to stop build errors
+1.0.0 - Initial release

@@ -1,6 +1,6 @@
 {
   "name": "remove-trailing-zeros",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Remove trailing zeros from a string/number",
   "main": "remove-trailing-zeros.js",
   "scripts": {
@@ -13,6 +13,11 @@
     "zero"
   ],
   "author": "Adam Tombleson",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rek/remove-trailing-zeros.git"
+  },
+  "homepage": "https://github.com/rek/remove-trailing-zeros#readme",
   "license": "ISC",
   "devDependencies": {
     "mocha": "^4.0.1"

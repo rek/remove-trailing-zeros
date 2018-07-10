@@ -8,7 +8,7 @@ module.exports = function(value) {
     return value
   }
 
-  let cutFrom = value.length - 1
+  var cutFrom = value.length - 1
 
   // as long as the last character is a 0, remove it
   do {
