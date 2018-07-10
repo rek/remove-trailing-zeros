@@ -1,6 +1,6 @@
 # Remove Trailing Zeros
 
-[![NPM version][npm-image]][npm-url]
+![NPM Version](https://img.shields.io/npm/v/remove-trailing-zeros.svg?style=flat)
 [![NPM downloads][downloads-image]][downloads-url]
 
 Remove extra zeros from the end of a string or number
@@ -20,6 +20,7 @@ console.log('Are the same:', removeTrailingZeros('1,230.4000'')) // -> 1,230.4
 ```
 ## Examples
 
+```
 1 -> 1
 10 -> 10
 100. -> 100
@@ -29,6 +30,7 @@ console.log('Are the same:', removeTrailingZeros('1,230.4000'')) // -> 1,230.4
 100.01 -> 100.01
 100.010 -> 100.01
 '1.2304000' -> 1.2304
+```
 
 ## License
 
