@@ -44,5 +44,6 @@ ISC
 
 ## Changelog
 
+ - 1.0.3 - Manually put in an AMD build - TODO: generate this
  - 1.0.2 - Removed let and used var instead, to stop build errors
  - 1.0.0 - Initial release
