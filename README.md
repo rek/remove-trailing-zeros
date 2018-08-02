@@ -2,8 +2,11 @@
 
 ![NPM Version](https://img.shields.io/npm/v/remove-trailing-zeros.svg?style=flat)
 ![License](https://img.shields.io/github/license/rek/remove-trailing-zeros.svg)
+![Downloads](https://img.shields.io/npm/dm/remove-trailing-zeros.svg?style=flat)
 
-Remove extra zeros from the end of a string or number
+Remove extra zeros from the end of a string or number.
+
+Performance benchmark: https://jsperf.com/remove-trailing-zeros
 
 ## Installation
 
